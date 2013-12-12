@@ -31,7 +31,7 @@ SRCS= 	BeLife.cpp \
 		
 #	specify the resource files to use
 #	full path or a relative path to the resource file can be used.
-RSRCS= BeLife.rsrc
+RDEFS= BeLife.rdef
 
 #	specify additional libraries to link against
 #	there are two acceptable forms of library specifications
