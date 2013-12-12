@@ -31,7 +31,7 @@ SRCS= 	BeLife.cpp \
 		
 #	specify the resource files to use
 #	full path or a relative path to the resource file can be used.
-RSRCS= BeLife.rsrc
+RDEFS= BeLife.rdef
 
 #	specify additional libraries to link against
 #	there are two acceptable forms of library specifications
@@ -99,5 +99,6 @@ LINKER_FLAGS =
 
 
 ## include the makefile-engine
-include /boot/develop/etc/makefile-engine
-
+DEVEL_DIRECTORY := \
+	$(shell findpaths -r "makefile_engine" B_FIND_PATH_DEVELOP_DIRECTORY)
+include $(DEVEL_DIRECTORY)/etc/makefile-engine
