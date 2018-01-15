@@ -7,6 +7,10 @@ January 26, 2066
 
 ___
 
+![](screenshot.png)
+
+___
+
 The _Game of Life_ (or simply _Life_) is not a game in the conventional sense. There are no players, and no winning or losing. Once the "pieces" are placed in the starting position, the rules determine everything that happens later. Nevertheless, _Life_ is full of surprises! In most cases, it is impossible to look at a starting position (or pattern) and see what will happen in the future. The only way to find out is to follow the rules of the game.
 
 ## Rules of the _Game of Life_
