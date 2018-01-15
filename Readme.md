@@ -1,8 +1,11 @@
 # BeLife
 
 version 1.0 R5
+
 by T. Lansbergen (0033)
+
 studio-33.blogspot.com
+
 January 26, 2066
 
 ___
